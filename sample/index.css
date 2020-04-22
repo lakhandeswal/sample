@@ -1,0 +1,56 @@
+*{padding: O;
+margin: 0;
+}
+
+
+.bar {background:url(headset.jpg) no-repeat;
+      background-size: cover;
+      height:100vh;
+     }
+
+.navtag{width: 100%;
+        height: 70px;
+        background:black;	
+
+}
+
+.logo{
+	width: 160px
+	height:auto;
+    padding:20px 100px }
+
+.logo:hover{
+	background:red;
+	border-radius: 10px;
+}    	
+
+
+.navtag ul{float: right;
+	margin-right: 20px;
+}
+
+.navtag ul li{
+	list-style: none;
+	margin: 0 8px;
+	display: inline-block;
+	line-height: 80px;
+}
+
+.navtag ul li a{
+	text-decoration: none;
+	color:white;
+	font-size:20px;
+	font-weight: bold;
+	font-family:'roboto' , sans-serif;
+	padding: 6px 13px; 
+	transition: .5s;
+}
+
+.navtag ul li a.light,
+.navtag ul li a:hover{
+	background:red;
+	border: 1px solid black;
+	border-radius: 2px;
+}
+
+
